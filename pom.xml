@@ -17,9 +17,6 @@
         <artifactId>maven-war-plugin</artifactId>
         <configuration>
 
-                <source>1.7</source>  
-                <target>1.7</target>
-
             <webResources>
                 <resource>
                     <directory>WebRoot</directory>
@@ -27,6 +24,12 @@
             </webResources>
         </configuration>
     </plugin>
+
+			<plugin>
+				<artifactId>maven-clean-plugin</artifactId>
+				<version>2.5</version>
+			</plugin>
+
 </plugins>
 
     <finalName>al-test</finalName>
