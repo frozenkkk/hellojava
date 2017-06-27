@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Tue Oct 27 14:28:46 CST 2015
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=alyun.jar
+manifest.mergeall=true
+manifest.mainclass=com.EcsDemo
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<jar|javaee.jar>;<jar|jsf-impl.jar>;<jar|jsf-api.jar>;<jar|jstl-1.2.jar>
+includes=
