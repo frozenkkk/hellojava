@@ -8,7 +8,6 @@
   <name>myprojectname Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
-
 <build>
 <defaultGoal>compile</defaultGoal>
 <plugins>
@@ -24,7 +23,6 @@
         </configuration>
     </plugin>
 </plugins>
-
-    <finalName>al-test</finalName>
-  </build>
+    <finalName>shop</finalName>
+</build>
 </project>
