@@ -16,7 +16,6 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
         <configuration>
-
             <webResources>
                 <resource>
                     <directory>WebRoot</directory>
@@ -24,12 +23,6 @@
             </webResources>
         </configuration>
     </plugin>
-
-			<plugin>
-				<artifactId>maven-clean-plugin</artifactId>
-				<version>2.6</version>
-			</plugin>
-
 </plugins>
 
     <finalName>al-test</finalName>
