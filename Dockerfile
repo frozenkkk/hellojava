@@ -14,7 +14,7 @@ ADD ./target/apache-tomcat-7.0.79.tar.gz /home/
 #RUN tar -zxvf jdk-8u131-linux-x64.tar.gz -C /usr/java/
 #RUN tar -zxvf apache-tomcat-7.0.79.tar.gz -C /home/
 
-ENV JAVA_HOME /usr/java/jdk1.8.0_131;PATH $JAVA_HOME/bin:$JAVA_HOME/jre/bin:$PATH
+ENV JAVA_HOME /usr/java/jdk1.8.0_131
 ENV PATH $JAVA_HOME/bin:$JAVA_HOME/jre/bin:$PATH
 ENV CLASSPATH $CLASSPATH:$JAVA_HOME/lib:$JAVA_HOME/jre/lib
 
